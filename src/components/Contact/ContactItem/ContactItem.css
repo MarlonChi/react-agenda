@@ -1,7 +1,7 @@
 .itemContatc {
     width: 250px;
     height: 130px;
-    border: 1px solid #5f5fc3;
+    border: 1px solid #9F9C99;
     border-radius: 15px;
     margin: 10px 5px 5px 10px;
     display: inline-block;
@@ -28,7 +28,7 @@
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        background-color: #5f5fc3;
+        background-color: #9F9C99;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -41,14 +41,14 @@
         }
 
     .itemContatc > .row > i {
-        color: #999;
+        color: #9F9C99;
         margin-left: 20px;
     }
 
     .itemContatc > .row > label {
         font-size: 15px;
         font-weight: bold;
-        border-bottom: 1px solid #999;
+        border-bottom: 1px solid #9F9C99;
         margin-left: 10px;
         width: 75%;
     }

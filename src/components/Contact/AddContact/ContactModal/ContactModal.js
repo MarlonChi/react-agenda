@@ -67,8 +67,10 @@ class ContactModal extends Component {
                     </div>
 
                     <div className="footerNewContact">
-                        <button type="button" id="btnSaveContact" className="btn btnSaveContact" onClick={ () => this.handleClick() }>Adicionar</button>
-                        <button type="button" id="btnCancel" className="btn btnCancel" onClick={ this.props.onClose }>Cancelar</button>
+                        <button type="button" id="btnSaveContact" className="btn btnSaveContact" 
+                        onClick={ () => this.handleClick() }>Adicionar</button>
+                        <button type="button" id="btnCancel" className="btn btnCancel" 
+                        onClick={ this.props.onClose }>Cancelar</button>
                     </div>                  
                 </div>
             </div>
